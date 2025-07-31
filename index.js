@@ -1,3 +1,9 @@
+/**
+ * Farenheit is F-32/1.8 or ((f-32) * (5/9))
+ * @param {number} farenheit
+ * @returns {number} the temperature converted into celsius from farenheit
+ */
+
 function convertToCelsius(farenheit) {
   return (farenheit - 32) * (5 / 9);
 }
